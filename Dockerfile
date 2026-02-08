@@ -26,7 +26,7 @@ COPY . ./
 
 RUN bun run build
 
-FROM nginx:stable-alpine
+FROM nginx:1.29.5-alpine3.23
 
 EXPOSE 80/tcp
 
